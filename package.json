@@ -1,0 +1,40 @@
+{
+  "name": "cypress-cucumber-boilerplate",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber boilerplate project to kick start your BDD E2E UI Cypress testing.",
+  "main": "index.js",
+  "scripts": {
+    "cypress-open": "cypress open",
+    "cypress-run": "cypress run --spec **/*.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilkk/cypress-cucumber-boilerplate.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Anil Kumar Krishnashetty",
+    "email": "anilbms75@gmail.com",
+    "url": "https://www.linkedin.com/in/anilk4/"
+  },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/anilkk/cypress-cucumber-boilerplate/issues"
+  },
+  "homepage": "https://github.com/anilkk/cypress-cucumber-boilerplate#readme",
+  "dependencies": {
+    "cypress": "^4.1.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  }
+}
